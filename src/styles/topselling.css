@@ -1,0 +1,103 @@
+.topselling-heading{
+    text-align: center;
+    margin: 40px 0px;
+
+}
+.topselling-heading span{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.topselling-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    padding: 50px;
+
+}
+.topselling-card{
+    width: 28%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+.topselling-ig-container{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+.topselling-ig-container img{
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    transform: translateY(-30%);
+    object-fit: contain;
+}
+.top-selling-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.top-selling-text-heading{
+    font-weight: 400;
+    font-size: x-large;
+}
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 778px) {
+    .topselling-container{
+        flex-direction: column;
+    }
+    .topselling-card{
+        width: 100%;
+    }
+    .topselling-ig-container img{
+        height: 150%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .topselling-ig-container{
+        height: 40vh;
+    }
+    .top-selling-text{
+        height: 50%;
+    }
+    
+}
+
+@media screen and (min-width:778px) and ( max-width: 992px) {
+    .topselling-card{
+        width: 42%;
+        /* height: 120vh; */
+    }
+    .topselling-ig-container img{
+        height: 150%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .topselling-ig-container{
+        height: 50vh;
+    }
+    .top-selling-text{
+        height: 50%;
+    }
+    
+}
+
+@media screen and (min-width : 992px) and (max-width : 1200px) {
+    .topselling-card{
+        width: 45%;
+        /* height: 120vh; */
+    }
+}

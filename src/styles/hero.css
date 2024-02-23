@@ -1,0 +1,332 @@
+.hero{
+    width: 100%;
+    background-image: url(../images/background-image.jpg);
+    background-position:top;
+    background-size: cover;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-container-one{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-item-one{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    min-height: 90vh;
+    gap: 20px;
+  }
+  .hero-item-one h1{
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .hero-text p{
+    margin: 10px 0px;
+  }
+  .hero-item-one button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 5px;
+  }
+  .hero-item-one-card{
+    padding: 20px;
+    border: 1px solid white;
+    width: 40%;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  
+  }
+  .hero-item-one-card img{
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;  
+  }
+  .item-one-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 54px;
+  }
+  .hero-text2{
+    margin-top: 10px;
+  }
+  
+  
+  
+  .hero-item-two{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-card1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 80%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  
+  }
+  
+  .card1-ig-container{
+    width: 100%;
+    height: 43vh;
+  }
+  .hero-card1 img{
+    width: 100%;
+    max-height: 500px;
+    position: absolute;
+    transform: translate(-52%,-30%);
+    object-fit: contain;
+  }
+  .hero-card1 button{
+    width: 50%;
+    padding: 20px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-size: large;
+  }
+  .hero-card1 h1{
+    font-weight: 400;
+    margin: 10px 0px;
+  }
+  .hero-card1-text{
+    height: 25%;
+    padding: 40px;
+    text-align: left;
+  }
+  
+  
+  
+  
+  
+  
+  .hero-heading{
+    text-align: center;
+    margin: 40px 0px 110px 0px;
+  }
+  .hero-heading span{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .hero-section2{
+    width: 80%;
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  }
+  .hero-section2-ig-container{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+  }
+  .hero-section2-ig-container img{
+    width: 100%;
+    height: 130%;
+    position: absolute;
+    transform: translateY(-25%);
+    object-fit: contain;
+  }
+  .hero-section2-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-section2-text button{
+    width: 50%;
+    background: none;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: large;
+  }
+  .hero-section3{
+    margin-top: 150px;
+    padding: 30px;
+  }
+  .hero-section2-text{
+    padding: 40px;
+  }
+  
+
+
+
+
+  /* responsive design */
+  @media screen and (min-width : 993px) and (max-width : 1200px) {
+    .hero-item-one-card{
+      width: 50%;
+    }
+    
+  }
+  @media screen and (min-width : 768px) and (max-width : 992px) {
+    .hero{
+      padding: 10px;
+    }
+    .hero-container-one{
+      gap: 100px;
+    }
+    .hero-item-one{
+      width: 100%;
+      padding: 20px;
+    }
+    .hero-item-two{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .card1-ig-container{
+      margin-bottom: 150px;
+    }
+    .hero-section2{
+      width: 100%;
+    }
+    .hero-section2-text{
+      width: 100%;
+    }
+    .hero-section2-ig-container img{
+      height: 170%;
+      width: 100%;
+      transform: translateY(-30%);
+      object-fit: contain;
+    }
+    .hero-section2-ig-container{
+      height: 60vh;
+    }
+    .hero-section3-text{
+      margin-bottom: 60px;
+    }
+  }
+
+
+
+  @media screen and (min-width : 576px) and (max-width : 768px) {
+    .hero{
+      padding: 40px 20px;
+    }
+    .hero-container-one{
+      justify-content: space-around;
+    }
+    .hero-item-one-card{
+      display: none;
+    }
+    .hero-item-one{
+      width: 100%;
+      padding: 20px;
+      min-height: 70vh;
+    }
+    .hero-item-two{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .card1-ig-container{
+      margin-bottom: 150px;
+    }
+    .hero-section2{
+      flex-direction: column;
+      width: 80%;
+    }
+    .hero-section2-text{
+      width: 100%;
+    }
+    .hero-section2-ig-container img{
+      height: 170%;
+      width: 100%;
+      transform: translateY(-30%);
+      object-fit: contain;
+    }
+    .hero-section2-ig-container{
+      height: 60vh;
+    }
+    .hero-section3-text{
+      margin-bottom: 60px;
+    }
+  }
+
+
+
+
+  @media screen and (max-width : 576px) {
+    .hero{
+      padding: 20px;
+    }
+    .hero-container-one{
+      gap: 100px;
+    }
+    .hero-item-one-card{
+      display: none;
+    }
+    .hero-item-one{
+      width: 100%;
+      min-height: 70vh;
+    }
+    .hero-item-two{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .hero-card1{
+      width: 100%;
+    }
+    .hero-card1 button{
+      width: 100%;
+    }
+    .hero-card1-text{
+      height: 50%;
+    }
+    .card1-ig-container{
+      height: 50vh;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .card1-ig-container img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .hero-section2{
+      flex-direction: column;
+      width: 100%;
+    }
+    .hero-section2-text{
+      width: 100%;
+    }
+    .hero-section2-text button{
+      width: 100%;
+    }
+    .hero-section2-ig-container{
+      height: 60vh;
+      /* background-color: aqua; */
+    }
+    .hero-section2-ig-container img{
+      height: 180%;
+      width: 100%;
+      transform: translateY(-30%);
+    }
+    .hero-section3-text{
+      margin-bottom: 60px;
+    }
+  }
