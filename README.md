@@ -8,12 +8,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Farazam-Tahir/Planto-React-Project.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-project
+   cd src
    ```
 
 3. Install dependencies using npm or yarn:
